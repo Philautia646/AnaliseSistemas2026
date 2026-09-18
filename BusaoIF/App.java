@@ -23,7 +23,7 @@ public class App {
             estudante,
             linha,
             SituacaoSolicitacao.APROVADA
-        );
+        ); 
 
         Documento doc1 = new Documento("Comprovante de Matrícula", LocalDate.of(2026, 2, 10), SituacaoDocumento.APROVADO);
         Documento doc2 = new Documento("Comprovante de Residência", LocalDate.of(2026, 2, 10), SituacaoDocumento.APROVADO);
@@ -42,5 +42,6 @@ public class App {
         solicitacao.setPasseEscolar(passe);
 
         System.out.println(solicitacao);
+        
     }
 }
