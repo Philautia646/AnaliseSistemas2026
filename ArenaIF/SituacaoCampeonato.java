@@ -1,0 +1,7 @@
+public enum SituacaoCampeonato {
+    INSCRICOES_ABERTAS,
+    INSCRICOES_ENCERRADAS,
+    EM_ANDAMENTO,
+    FINALIZADO,
+    CANCELADO
+}
